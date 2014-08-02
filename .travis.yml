@@ -1,0 +1,7 @@
+language: php
+
+install:
+  - composer self-update
+  - composer require phpunit/phpunit:*
+  - composer require phpunit/phpunit:3.7.*
+  - composer update
