@@ -5,7 +5,7 @@ install:
   - composer --version
   - composer require --prefer-source phpunit/phpunit:*
   - vendor/bin/phpunit --version
-  - composer require --prefer-source phpunit/phpunit:3.7.*
+  - composer require --prefer-source --update-with-dependencies phpunit/phpunit:3.7.*
   - vendor/bin/phpunit --version
   - composer --prefer-source update
   - vendor/bin/phpunit --version
